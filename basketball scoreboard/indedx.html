@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="container">
+            <div class="column">
+                <h3 class="title">HOME</h3>
+                <h2 class="score" id="score-home">0</h2>
+                <div>
+                    <button onclick="add1Point()">+1</button>
+                    <button onclick="add2Points()">+2</button>
+                    <button onclick="add3Points()">+3</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3 class="title">GUEST</h3>
+            <h2 class="score" id="score-guest">0</h2>
+                <div>
+                    <button onclick="add1PointG()">+1</button>
+                    <button onclick="add2PointsG()">+2</button>
+                    <button onclick="add3PointsG()">+3</button>
+                </div>
+                </div>
+        </div>
+        <script src="counting.js"></script>
+    </body>
+</html>
