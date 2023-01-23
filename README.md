@@ -1,2 +1,2 @@
 # exercises-js
-exercises in js from scrimba course
+exercises from various courses
